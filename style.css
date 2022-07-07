@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,700;1,100;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Mono';
+    overflow-y: visible;
+    
+
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: black;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 3px solid white;  /* creates padding around scroll thumb */
+}
+header{
+    background-color: rgb(0, 0, 0);
+}
+nav{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 90vh;
+    margin: auto;  
+    height: 50px;
+}
+nav a{
+   
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-decoration: none;
+    margin: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    background-image: linear-gradient(45deg, rebeccapurple, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;    
+    transition: .7s;
+    -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+}
+main{
+    display: inline-block;
+}
+.box1{
+    background-color: rgb(218, 218, 218);
+    width: 954px;
+    height: 1000px;
+    display: inline-block;
+    position: relative;
+    
+}
+.texto-main{
+    align-items: center;
+    padding-top: 80px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.texto main, h1 h2 p{    
+    margin-top: 6vh;
+}
+h1{
+    font-size: 10vh;
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;    
+}
+h2{
+    font-size: 8vh;  
+}
+h3{
+    margin-left: 20px;
+    font-size: 6vh;
+}
+
+p{
+    font-size: 4vh;
+}
+
+.imagem{   
+    background-position: center;
+	height: 1000px;
+    background-image: linear-gradient(to left, transparent 0%, rgb(218, 218, 218) 100%), url(img/pexels-markus-spiske-225250.jpg);
+    width: 954px;   
+    float: right; 
+}
+.redes{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.redes a{
+    border-radius: 10px;
+    background-color: rgb(218, 218, 218);
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes a:hover{  
+    background-image: linear-gradient(45deg, rebeccapurple, steelblue, turquoise);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.redes img{
+    background-color: rgba(0, 0, 0, 0);
+    max-height: 70px;
+    max-width: 70px;
+    cursor: pointer;
+    padding: 5px;    
+}
+hr{
+    color: black;
+    border: 10px solid black;
+}
+article{
+    background-color: rgb(218, 218, 218);
+    padding-top: 20px;
+}
+article p{
+    text-indent: 30px;
+    padding: 20px;
+    text-align: justify;
+    
+}
+article h2{
+    text-align: center;
+}
+article a{
+    color: white;
+    background-color: black;
+    padding: 3px;
+    margin: auto;
+    border-radius: 5px;
+}
+article a:hover{
+    background-image: linear-gradient(45deg, rebeccapurple, steelblue, turquoise);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.Project{
+    background-color: lightslategray;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    border: 5px dashed black;
+}
+footer{
+    text-align: center;
+    background-color: rgb(218, 218, 218);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer a{
+    color: white;
+    background-color: black;
+    padding: 3px;
+    margin: auto;
+    border-radius: 5px;
+
+}
+footer a:hover{
+    background-image: linear-gradient(45deg, rebeccapurple, steelblue, turquoise);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
