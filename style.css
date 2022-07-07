@@ -58,19 +58,14 @@ main{
     display: inline-block;
 }
 .box1{
-    background-color: rgb(218, 218, 218);
-    width: 954px;
-    height: 1000px;
-    display: inline-block;
-    position: relative;
-    
+    background-image: radial-gradient(circle, gray,black);
+    min-height: 900px;
 }
 .texto-main{
     align-items: center;
     padding-top: 80px;
     justify-content: center;
     text-align: center;
-    
 }
 .texto main, h1 h2 p{    
     margin-top: 6vh;
@@ -92,17 +87,11 @@ h3{
 
 p{
     font-size: 4vh;
+    padding-top: 20px;
 }
 
-.imagem{   
-    background-position: center;
-	height: 1000px;
-    background-image: linear-gradient(to left, transparent 0%, rgb(218, 218, 218) 100%), url(img/pexels-markus-spiske-225250.jpg);
-    width: 954px;   
-    float: right; 
-}
 .redes{
-    padding-top: 70px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     position: relative;
